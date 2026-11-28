@@ -21,4 +21,10 @@ export const loan = {
   // 2500 for 12 months, read from the page after filling the amount field.
   updatedAmount: '2500',
   updatedMonthlyPayment: '214.02 €',
+  mockSeedAmount: '1609',
+  mockSeedMonthlyPayment: 137.74,
+};
+
+export const apiRoutes = {
+  loanCalc: '**/api/loan-calc*',
 };
